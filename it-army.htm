@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<!-- helpukr.xyz -->
+<head>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1100, initial-scale=1">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="mask-icon" href="favicon.ico" color="#111">
+<link rel="canonical" href="favicon.ico">
+<title>IT Army of Ukraine - Help Ukraine</title>
+<style>
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  hight: 0px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #34a8eb;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #63c6ff
+  ;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: yellow;
+}
+table {
+  border: 3px solid;
+  border-radius: 25px;
+  border-color: #fffd9c;
+}
+.style20 {font-weight: bold}
+</style>
+
+<style class="INLINE_PEN_STYLESHEET_ID">
+    @import url(//fonts.googleapis.com/css?family=Lato:300:400);
+body {
+    margin: 0;
+    background-image: url(mobile-bgs/it-army.png);
+    background-repeat: repeat;
+}
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight:300;
+  letter-spacing: 2px;
+  font-size:48px;
+}
+p {
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 1px;
+	font-size:14px;
+	color: #FFFFFF;
+	text-align: left;
+}
+.header {
+	position: relative;
+	background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+	color: white;
+}
+.logo {
+  width:50px;
+  fill:white;
+  padding-right:15px;
+  display:inline-block;
+  vertical-align: middle;
+}
+.inner-header {
+  height:65vh;
+  width:100%;
+  margin: 0;
+  padding: 0;
+}
+.flex { /*Flexbox for containers*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.waves {
+  position:relative;
+  width: 100%;
+  height:15vh;
+  margin-bottom:-7px; /*Fix for safari gap*/
+  min-height:100px;
+  max-height:150px;
+}
+.content {
+  position:relative;
+  height:20vh;
+  text-align:center;
+  background-color: yellow;
+}
+/* Animation */
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+@keyframes move-forever {
+  0% {
+   transform: translate3d(-90px,0,0);
+  }
+  100% {
+    transform: translate3d(85px,0,0);
+  }
+}
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+  .waves {
+    height:40px;
+    min-height:40px;
+  }
+  .content {
+    height:30vh;
+  }
+  h1 {
+    font-size:24px;
+  }
+}
+  .style3 {
+	font-size: 24px;
+	font-family: "Courier New", Courier, monospace;
+	color: #000066;
+	font-weight: normal;
+}
+  .style4 {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+}
+.style7 {font-size: 32px}
+  body,td,th {
+	color: #FFFFFF;
+	text-align: center;
+	border-radius: 10px;
+	font-family: Lato;
+}
+  a:link {
+	color: #FFFF66;
+	text-decoration: none;
+}
+a:visited {
+	color: #FFFF66;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFCC66;
+	text-decoration: underline;
+}
+a:active {
+	color: #FFFF66;
+	text-decoration: none;
+}
+</style>
+	
+<script type="text/JavaScript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('https://i.imgur.com/Gvaitq7.png','JoinENG2.png','JoinURK2.png')">
+
+	<div class="header"><ul>
+	  <table width="1059" border="0" align="center" style="border-top-width: 0px;border-bottom-width: 0px;border-right-width: 0px;border-left-width: 0px;margin-top: 5px;">
+	    <tbody>
+	      <tr>
+	        <td width="1103" bgcolor="#294e6b">
+			  <ul style="margin-left: 5px;">
+	          <li2></li2>
+	          <li2><a href="index.htm"><span style="color: #fff">Home</span></a></li2>
+	          <li2><a href="flood-via-browser.htm"><span style="color: #fff">Browser Flood Tool</span></a></li2>
+	          <li2><a href="ddos-help.htm"><span style="color: #fff">DDoS Help</span></a></li2>
+	          <li2><a class="active" href="it-army.htm"><span style="color: #696969"><strong>IT Army</strong></span></a></li2>
+	          <li2><a href="donate-to-ukraine.htm"><span style="color: #fff">Donate to Ukraine</span></a></li2>
+	          <li2><a href="news.htm"><span style="color: #fff">News</span></a></li2>
+	          <li2><a href="vpns.htm"><span style="color: #fff">VPN</span></a></li2>
+	          <li2><a href="proxies.htm"><span style="color: #fff">Proxie's</span></a></li2>
+	          <li2><a href="tor.htm"><span style="color: #fff">ToR</span></a></li2>
+            </ul></td>
+          </tr>
+        </tbody>
+      </table>
+	</ul>
+	  <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  overflow: hidden;
+}
+li2 {
+  float: left;
+  margin-bottom: 6px;
+  margin-left: 6px;
+  margin-top: 6px;
+}
+li2 a {
+  display: block;
+  color: white;
+  border-radius: 8px;
+  margin-right: 4px;
+  text-align: center;
+  padding: 3px 18px;
+  text-decoration: none;
+}
+li2 a:hover:not(.active) {
+  background-color: #4F8398;
+}
+.active {
+  background-color: #fffd9c;
+}
+</style>
+
+<br>
+<table style="border-width: 1px 0px 0px 0px;" border="0" width="752" align="center">
+<tbody>
+<tr>
+<td style="text-align: center;" width="647"><span class="style7" style="margin-top: 0px; margin-bottom: 5px; padding-top: 14px; font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;">helpukr.xyz &nbsp;-&nbsp; <strong>Help Support Ukraine!</strong></span></td>
+</tr>
+</tbody>
+</table><table width="960" border="0" align="center" style="
+    border-bottom-width: 0px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 0px;
+">
+    <tbody><tr>
+      <td width="845" height="77"><div align="center" style="font-family: lato">The IT Army of Ukraine is made up of volunteers around the world, it was announced during the first days of Russia’s invasion and backed by the Ukrainian government. Since then millions of people from around the world have joined to help make a dent in the balance of Russia’s war.<br>
+The main goal of this group is to flood Russian propaganda, make the sites spreading lies to the Russian people unable to function, forcing the Russian people to look elsewhere for their news. Flood Russian infrastructure helping there invasion, and cause as many technical problems as possible for them. Every day a new list of targets is released that every member in the group can flood by their desired method.
+</div></td>
+      </tr>
+</tbody></table>
+<p><!--Waves Container--></p>
+<table width="855" border="0" align="center" style="border-bottom-width: 0px;border-top-width: 0px;border-right-width: 0px;border-left-width: 0px;">
+  <tbody>
+    <tr>
+      <td width="849" style="text-align: left"> The IT Army of Ukraine needs your help.<br>
+Every day we flood 10's - 100's of Russian targets specially selected for that day, Targets are selected by an intelligence team who spend all their time thoroughly Going over many Russian corporations, State news and other Russian services aiding Putin’s invasion, spreading false information and funding them.<br>
+If you have a computer and are and are unhappy with Putin’s decision to invade Ukraine, rape, murder and torture there civilians, you can help! Just join the Telegram servers and you can get started right away!<br>
+If you don’t have a computer and still want to help, you can use our Browser flood tool to help us with the daily targets.<br>
+Just open the page for today and press continue, It's recommended to protect yourself first with a VPN, Proxy or ToR browser.<br>
+If you have an Android Phone or Smart TV, Download the ToR Browser from the Play Store and use that, you'll be able to change IP at will and be completely anonymous,  you'll be able to help  make a difference, just a tiny 1kbps could be the edge needed to take down a Russian server hosting propaganda or even a service showing Ukrainian military checkpoints, which in term will save lives!<br></td>
+    </tr>
+  </tbody>
+</table>
+<table width="748" border="0" align="center" style="border-top-width: 0px;border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;">
+  <tbody>
+    <tr>
+      <td width="365"><strong><a href="https://t.me/ITArMOfUKEnG100" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Join-English','','JoinENG2.png',1)"><img src="JoinENG.png" alt="Join the IT Army of Ukraine English Telegram Server" width="365" id="Join-English"><br>
+          <span style="font-size: large; font-family: lato;">Select this Button to join the IT Army of Ukraine's English speaking Telegram Server</span></a></strong></td>
+      <td width="373"><strong><a href="https://t.me/itarmyofukraine2022" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Join-Ukraine','','JoinURK2.png',1)"><img src="JoinURK.png" alt="Join the IT Army of Ukraine - ukrainian Telegram Server (main)" width="365" id="Join-Ukraine"><br>
+          <span style="font-size: large; font-family: lato;">Select this Button to join the IT Army of Ukraine's Ukrainian speaking Telegram Server</span></a></strong></td>
+    </tr>
+  </tbody>
+</table>
+<table width="855" border="0" align="center" style="border-bottom-width: 0px;border-top-width: 0px;border-right-width: 0px;border-left-width: 0px;">
+  <tbody>
+    <tr>
+      <td colspan="2" style="text-align: left"><p><span style="font-size: 18px"><b>Information below is sourced from the group PDF:<br>
+  "Behaviour in chatrooms, potential malicious scripts, policies and what to look out for"<br>
+  <a href="https://cdn.discordapp.com/attachments/418117731150200862/980751391771459594/Behaviour_and_Policies_v1_0.pdf" target="_blank">Download and View it Here</a>.</b></span></p></td>
+    </tr>
+    <tr>
+      <td width="519" style="text-align: left"><p><span style="font-size: 20px"><u>TIPS and tricks:</u></span> &nbsp; </p>
+        <p>Chatting in channels and chat rooms is really nice. You get to meet a lot of people and you get to   share a lot of information. It almost feels like home. And like at home, you tend to let your guard   down if things get cozy and familiar. When you spend a lot of time in chat rooms you get to know all   the key players and you think you know who is who.</p>
+        <p> But, like many things in life, looks can be deceiving. So please follow the rules below to stay safe.   These rules do not just apply to the IT Army of Ukraine channels and chats, it’s just good practice to   do this in every single chat room, newsgroup or channel you will ever visit on this planet in your life   from now on.</p>
+        <p>Please don't share your personal information with anyone regardless what you're working on or   the topics you're discussing. Even in DM. Use your common sense when somebody ask you for   personal information. Protect your anonymity as much as you can. Here are a few rules that sounds   trivial but are so important:<br>
+        </p></td>
+      <td width="326" style="text-align: left"><img src="https://i.imgur.com/ExagsgJ.png"></td>
+    </tr>
+    <tr>
+      <td height="66" colspan="2" style="text-align: left">
+        <blockquote>
+          <p style="margin-top: 0px;"><span style="margin-bottom: 0px;">&nbsp;•Don't give out your personal address. <br>
+            &nbsp;•Don't give your real name or use your real name in your profile</span><br>
+            &nbsp;•Don't tell the country you're from.   * Don't give them your phone number or e-mail address. <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;on't use your real picture in your profile.   <br>
+• Set a strong password with 2FA or MFAUnfortunately, many people still join Telegram under their own &nbsp;&nbsp;&nbsp;&nbsp;account and name. <br>
+            &nbsp;&nbsp;&nbsp; You’re so easy   to find, not just by the opponent but also by law enforcement.</p>
+        </blockquote>
+        <p style="margin-top: 0px;"><span style="font-size: 20px"><u>Policies:</u></span></p>
+        <p style="margin-top: 0px;">We have many discussion about what targets to go after in our chat rooms. Our targets are set by   the Ukrainian government and we don't invent our own targets. All attacks and testing is done in   close liaison with those who are responsible for the target list. We strongly discourage you to attack  anything that may cause direct physical injury to civilians or put their lives at risk. Amongst them   are, but not limited to:</p>
+        <blockquote>
+          <p style="margin-top: 0px;"> &nbsp;• Nuclear power plants (we don&rsquo;t want a meltdown causing a global disaster)  <br>
+            &nbsp;• Hospitals <br>
+            &nbsp;• Elderly homes <br>
+            &nbsp;• Orphanages <br>
+            &nbsp;• Schools (not being universities) <br>
+            &nbsp;• Pharmacies</p>
+        </blockquote>
+        <p style="margin-top: 0px;">We are very well aware that the Russian don&rsquo;t play by these rules and that it may cause strong   emotions and a need for revenge with some people and we don&rsquo;t blame them. However, if we would   allow such thinking or condone these actions, where would that leave us? We would be just like   them and we&rsquo;re much, much better than that.</p>
+        <blockquote>
+          <blockquote>
+            <blockquote>
+              <p style="margin-top: 0px;"><img src="https://i.imgur.com/FEEdJ4A.png"/></p>
+            </blockquote>
+          </blockquote>
+        </blockquote>
+        <p>It is not allowed to post links from other channels, Telegram or any other media platform in the IT 
+          Army of Ukraine channels. We don’t want splinter cells as this diminishes the striking force of the 
+          army. We should all stick together and attack the same targets at the same time. That is when we’re 
+          most effective which we have proven time and time again.</p>
+        <p><span style="font-size: 20px"><u>Administrators</u></span></p>
+        <p>We have administrators that are extremely busy with the target lists, the pen testers, the DDoS&rsquo;ers, communications, news, media, defensive actions, special projects, documentation, checking and writing scripts and programs and loads of other stuff. They do not have the time to teach you in person how to hack nor to help and assist you with personal projects that you&rsquo;ve kicked off in your shed. Every minute that you spend in an administrators DM asking a question that could have easily be found by a simple DuckDuckGo search on the internet is time the administrator could&rsquo;ve spend on something else. They&rsquo;re also not DJ&rsquo;s, they don&rsquo;t take requests. </p>
+        <p><img src="https://i.imgur.com/iYMaFkW.png"/></p> <p><img src="https://i.imgur.com/BwxGx9f.png"/></p>
+        <p>That doesn&rsquo;t mean you can&rsquo;t ask questions. On the contrary. If you have a question, or you are just curious about something, you can ask in the chat and there are many very friendly and knowledgeable people that will answer your question and will help you find the answer you&rsquo;re looking for.</p>
+        <p>You can always talk to an administrator if you really need to, if you have important information, such as trolls or spies or other information that needs to be dealt with or processed immediately. They will take all the time in the world to listen to you and try to sort things out.</p>
+        <p>Please be aware that due to the workload their response time is not very quick</p>
+        <p><span style="font-size: 20px"><u>Trolls and other undesirables</u></span></p>
+        <p>We know for sure that trolls and Russian spies have infiltrated the channels and chats. Although we have a highly moderated group with administrators that are doing an excellent job weeding out any trolls, spies and fake messages they can find, there is always the possibility that one slips past. Our enemy has launched a new malware campaign which takes advantage of all the good guys wanting to help the IT Army of Ukraine cyber warfare against him.</p>
+        <p><u>How do you recognize a troll?</u></p>
+        <p>Internet trolls are in it for the chaos. The main purpose of trolling is to stir up trouble and get a chain reaction of negative comments from other people. Chances are, trolls don&rsquo;t really even believe what they&rsquo;re saying – they just want to cause a little mayhem and disrupt the normal flow of operations. This can mean anything from luring people into silly, meaningless discussions (can someone please clarify if my computer runs faster on methane generated energy?) to posting purposely offensive, controversial or ignorant opinions. Please report this kind of behavior immediately to an administrator.</p>
+        <p><img src="https://i.imgur.com/wexWhJf.png"/></p>
+        <p>Trolls are kicked and banned from the channel immediately.</p>
+        <p><u>How do you recognize a spy?</u></p>
+        <p>Now this is a bit more challenging. Unlike trolls, spies are trained to gather information by being friendly to you, mislead you and trick you into revealing sensitive information. Questions like:</p>
+        <p>&ldquo;Can you please tell me how the targets are selected and could you please walk me through the process?&rdquo; are asked to admins on a daily base. It&rsquo;s not a normal question. </p>
+        <p>If you believe that someone is asking you something inappropriate relative to the tasks at hand, you   may be dealing with a pro-Russian sympathizer and this should trigger your internal alarm system. It&rsquo;s not appropriate if someone asks you &ldquo;which country are you from and in which city do you live   in?&rdquo;</p>
+        <p>There are more trolls and spies emerging as we grow bigger and we need to weed them out. Don't just report or block anyone who is generally interested in you, just use your common sense and be   careful. Don't become paranoid though, always try to be friendly with people.</p>
+        <p>Again, when in doubt ask your administrator.</p>
+        <p><span style="font-size: 20px"><u>Scripts and programs</u></span></p>
+        <p>As you have probably have noticed, there are a lot of people offering self-made scripts and/or services in order to try and help those who don't have a proper IT education or background.</p>
+        <p>Although many of the developers mean well and truly try to help people along, there are trolls in the groups that try to diminish the IT Army's effectiveness by spreading scripts and programs that   essentially do nothing or even may seriously harm your computer. We have even discovered scripts that de-anonymize you and expose your true digital identity to the outside world. </p>
+        <p>The power of the IT Army of Ukraine lies in attacking targets at the same time by as many people as possible for as long as possible. The target lists are known and pinned to the channels. They are   carefully selected by our central team to maximize impact and distributed by several sister channels. As an individual it's difficult to identify and select meaningful targets. Just picking a random site that ends with .ru is simply not enough. That is why centralized target lists exist. Please stick to them. </p>
+        <p>The IT Army of Ukraine distributes scripts that are effective and work safely. These scripts are reviewed on a daily base and if needed, replaced. Using unsupported scripts is entirely at your own   risk. Always test unknown scripts in a VM to avoid major disappointment. (Read: all your sensitive data being wiped). We are working extremely hard behind the scenes to create a safe environment   for all of you. New versions of the beginner&rsquo;s manual are distributed regularly with newly added scripts that passed our scrutiny.</p>
+        <p>Please DO NOT just install a tool or script that is presented to you via links. Although most of the programmers in here are very talented and skilled and produce excellent and well written scripts   that help the war effort, we simply cannot take the risk that a malicious script makes it into our systems and your computer. </p>
+        <table width="100%" border="0" style="border-top-width: 0px;border-bottom-width: 0px;border-right-width: 0px;border-left-width: 0px;">
+          <tbody>
+            <tr>
+              <td height="232" valign="top" style="text-align: left">&nbsp;<span style="margin-top: 0px;">•</span>&nbsp;Be extremely careful with executing scripts or programs you don't<br>
+&nbsp;&nbsp;&nbsp;&nbsp; know or never heard of. <br>
+&nbsp;<span style="margin-top: 0px;">•</span>&nbsp;ALWAYS use a virtual machine (VM, or VirtualBox on Kali) to test <br>
+&nbsp;&nbsp; &nbsp;a new script. No exceptions. Seriously. <br>
+&nbsp;<span style="margin-top: 0px;">•</span>&nbsp;If it's a closed source program, always scan it for viruses before you<br>
+&nbsp;&nbsp;&nbsp;&nbsp; execute it, even in a VM <br>
+&nbsp;<span style="margin-top: 0px;">•&nbsp;</span>Always report if you smell something fishy. We are all fighting for<br>
+&nbsp;&nbsp;&nbsp;&nbsp; the same cause. <br>
+&nbsp;<span style="margin-top: 0px;">•&nbsp;</span>Occam's razor. If it looks like a troll, smells like a troll, talks like<br>
+&nbsp;&nbsp;&nbsp;&nbsp; a troll... It usually IS a troll. <br> Report him/her to a chat administrator and they will figure it out.<br>
+&nbsp;<span style="margin-top: 0px;">•</span>&nbsp;Last but not least... When in doubt, always contact an administrator</td>
+              <td><img src="https://i.imgur.com/TkbRJUc.png" width="366" height="230"/></td>
+            </tr>
+          </tbody>
+        </table>
+        <p><br>
+          Cyber security is a serious business and you cannot let your guard down, ever. You need to adhere to the rules above or this may not be the right field for you and there are other ways of helping the war effort. If you follow the rules you will stay alive to fight another day together with all the great guys and gals from the awesome IT Army of Ukraine!</p>
+        <p>We&rsquo;re so proud of all of you for what we've achieved already. We all play our tiny role in this huge machine and every single cog is important. Without YOU, we'd be lost and doomed. Keep up the amazing work that every single one of you is doing!!
+</p></td>
+    </tr>
+    <tr>
+      </tr>
+  </tbody>
+</table>
+<div>
+  <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+<defs>
+<path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
+</defs>
+<g class="parallax">
+<use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(252,186,3,0.7"></use>
+<use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(252,186,3,0.5)"></use>
+<use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(252,186,3,0.3)"></use>
+<use xlink:href="#gentle-wave" x="48" y="7" fill="#fcd303"></use>
+</g>
+</svg>
+</div>
+<!--Waves end-->
+</div>
+<!--embedded footer starts-->
+<iframe src="footer.htm" style="border:0px # none;text-align: center;margin-right: 0px;" name="HelpUKR-Footer" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="814px" width="100%" allowfullscreen=""></iframe>
+</body>
+</html>
